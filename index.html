@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>atv </title>
+</head>
+<body>
+    <div class="container">
+        <div></div>
+        <div class="principal">
+            <h1><i class="material-icons">attachment</i> OPERAÇÕES</h1>
+            <label for="">Digite Dois Valores:</label><br>
+            <input type="number" name="valor1" id="valor1">
+            <input type="number" name="valor2" id="valor2"><br><br>
+            <button onclick="soma()"> + </button>
+            <button onclick="sub()" > - </button>
+            <button onclick="mult()"> * </button>
+            <button onclick="div()" > / </button>
+            <p id="operacoes"></p>
+
+            <h1><i class="material-icons">attachment</i> HIPOTENUSA</h1>
+            <label for="">Digite os valores dos catetos:</label><br>
+            <input type="number" name="cateto1" id="cateto1">
+            <input type="number" name="cateto2" id="cateto2"><br><br>
+            <button onclick="hip()" > Hipotenusa </button>
+            <p id="hipotenusa"></p>
+
+            <h1><i class="material-icons">attachment</i> IMC</h1>
+            <label for="">Digite a sua altura:</label><br>
+            <input type="number" name="altura" id="altura"><br>
+            <label for="">Digite o seu peso:</label><br>
+            <input type="number" name="peso" id="peso"><br><br>
+            <button onclick="imc()" > IMC </button>
+            <p id="imc"></p>
+
+        </div>
+        <div></div>
+    </div>
+    <script src="calculo.js"></script>
+</body>
+</html>
